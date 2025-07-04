@@ -1,10 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
-
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
 
 }
 
@@ -27,25 +28,24 @@ header {
 body {
     background-color: rgba(0, 68, 255, 0.274);
     font-family: sans-serif;
+    text-transform: capitalize;
 }
 
 section h2 {
 
     padding: 30px;
-    color: #09005e;
+    color: #070044;
     font-family: "Quicksand", sans-serif;
    
-};
-    
 }
 
-nav a {
+a {
     text-decoration: none;
-    color: inherit;
+    color: white;
     padding: 10px;
 }
 
-nav a:hover {
+a:hover {
     color: rgb(187, 187, 187);
 }
 
@@ -63,7 +63,6 @@ nav a:hover {
     padding: 15px;
 
 }
-
 
 .card__container {
     display: flex;
@@ -135,6 +134,9 @@ article img {
     align-items: center;
 
 }
+ul li {
+    padding: 5px;
+}
 
 
 input[type=text],
@@ -150,7 +152,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #09005e;
+    background-color: #070044;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -160,7 +162,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #006805;
+    background-color: #00444d;
 }
 
 .from {
@@ -171,6 +173,33 @@ input[type=submit]:hover {
 
 .from__container {
     padding: 30px;
+}
+
+footer {
+    background-color: #070044;
+    pading: 20px;
+    color: white;
+    flex-wrap: wrap;
+    
+}
+
+.footer__container {
+    display: flex;
+    padding: 20px;
+    max-width: 1200px;
+    justify-content: space-between;
+}
+
+.footer__links  {
+    width: 25%;
+    padding: 0 15px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+
+.social__link {
+
 }
 
 
